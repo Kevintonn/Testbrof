@@ -72,7 +72,7 @@ function humData(gotHumData) {
         background(235);
         humType = floor(random(10));
         
-        text(Legeslations, 1190, 400, 650, 500);
+        text(flashFloodSpin[floor(random(3))], 900, 400, 650, 500);
 
         switch (dataTypeHum) {
             case "Flash Flood": //Flashflood
