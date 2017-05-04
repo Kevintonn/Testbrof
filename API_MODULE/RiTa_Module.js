@@ -133,6 +133,7 @@ function humData(gotHumData) {
                 text(dataTypeHum + " in " + inCountries, 190, 400, 650, 500)
                 break;
         }
+        text(s, 900, 500);
     }
 }
 
