@@ -133,7 +133,7 @@ function humData(gotHumData) {
                 text(dataTypeHum + " in " + inCountries, 190, 400, 650, 500)
                 break;
         }
-        text(Lol broder tuk hvor er du?, 900, 500);
+        text("Lol broder tuk hvor er du?", 900, 500);
     }
 }
 
