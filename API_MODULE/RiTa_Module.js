@@ -23,6 +23,8 @@ function carmaData(data) {
         background(235);
         carmaType = floor(random(3));
         c = floor(random(2));
+        
+        text(s, 1190, 400, 650, 500);
 
         switch (carmaType) {
             case 0: //plant count
