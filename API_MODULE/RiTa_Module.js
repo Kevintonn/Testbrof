@@ -65,13 +65,14 @@ function humData(gotHumData) {
     earthquakeSpin = gotHumData.api.api2.Primary_Type.Earthquake;
     tropicalCycloneSpin = gotHumData.api.api2.Primary_Type.Tropical_Cyclone;
     coldWaveSpin = gotHumData.api.api2.Primary_Type.Cold_Wave;
+    Legeslations = gotHumData.api.Legeslations;
 
 
     if (humRdy) {
         background(235);
         humType = floor(random(10));
         
-        text(yo, 1190, 400, 650, 500);
+        text(Legeslations[floor(random(3))], 1190, 400, 650, 500);
 
         switch (dataTypeHum) {
             case "Flash Flood": //Flashflood
