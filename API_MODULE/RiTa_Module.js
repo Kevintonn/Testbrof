@@ -75,65 +75,74 @@ function humData(gotHumData) {
         switch (dataTypeHum) {
             case "Flash Flood": //Flashflood
                 image(img, 1000, 0);
-                text(flashFloodSpin[floor(random(3))], 1190, 500);
+                text(flashFloodSpin[floor(random(3))], 1190, 500)
                 text(dataTypeHum + "in" + inCountries, 190, 400, 650, 500)
+                text("Lol broder tuk hvor er du?", 900, 500)
                 break;
 
             case "Drought": //drought
                 image(img, 1000, 0);
                 text(droughtSpin[floor(random(3))], 1190, 500);
                 text(dataTypeHum + " in " + inCountries, 190, 400, 650, 500)
+                text("Lol broder tuk hvor er du?", 900, 500);
                 break;
 
             case "Epidemic": //epidemic
                 image(img, 1000, 0);
                 text(epidemicSpin[floor(random(5))], 1190, 500);
                 text(dataTypeHum + " in " + inCountries, 190, 400, 650, 500)
+                text("Lol broder tuk hvor er du?", 900, 500);
                 break;
 
             case "Insect Infestation": //insect infestation
                 image(img, 1000, 0);
                 text(insectInfestSpin[floor(random(4))], 1190, 500);
                 text(dataTypeHum + " in " + inCountries, 190, 400, 650, 500)
+                text("Lol broder tuk hvor er du?", 900, 500);
                 break;
 
             case "Other": //other
                 image(img, 1000, 0);
                 text(otherSpin[0], 1190, 500);
                 text(dataTypeHum + " in " + inCountries, 190, 400, 650, 500)
+                text("Lol broder tuk hvor er du?", 900, 500);
                 break;
 
             case "Complex Emergency": //complex emergency
                 image(img, 1000, 0);
                 text(complexEmergencySpin[floor(random(2))], 1190, 500);
                 text(dataTypeHum + " in " + inCountries, 190, 400, 650, 500)
+                text("Lol broder tuk hvor er du?", 900, 500);
                 break;
 
             case "Flood": //flood
                 image(img, 1000, 0);
                 text(floodSpin[0], 1190, 500);
                 text(dataTypeHum + " in " + inCountries, 190, 400, 650, 500)
+                text("Lol broder tuk hvor er du?", 900, 500);
                 break;
 
             case "Earthquake": //earthquake
                 image(img, 1000, 0);
                 text(earthquakeSpin[0], 1190, 500);
                 text(dataTypeHum + " in " + inCountries, 190, 400, 650, 500)
+                text("Lol broder tuk hvor er du?", 900, 500);
                 break;
 
             case "Tropical Cyclone": //tropical cyclone
                 image(img, 1000, 0);
                 text(tropicalCycloneSpin[0], 1190, 500);
                 text(dataTypeHum + " in " + inCountries, 190, 400, 650, 500)
+                text("Lol broder tuk hvor er du?", 900, 500);
                 break;
 
             case 9: //cold wave
                 image(img, 1000, 0);
                 text(coldWaveSpin[floor(random(2))], 1190, 500);
                 text(dataTypeHum + " in " + inCountries, 190, 400, 650, 500)
+                text("Lol broder tuk hvor er du?", 900, 500);
                 break;
         }
-        text("Lol broder tuk hvor er du?", 900, 500);
     }
 }
 
