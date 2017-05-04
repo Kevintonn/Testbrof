@@ -1,3 +1,6 @@
+//Intro
+var s = "I applaud the huge effort made by energy producers around the world. These great companies creates value by serving the energy needs of our great nation. Together they make use of the resources provided to us by nature, and turn them into products and solutions that enable you and your loved ones to live your daily lives, and run your daily businesses."
+
 //var for carmaOrg
 var plantCountSpin, carbonSpin, energySpin, fossilSpin, nuclearSpin, genNumber, genStatement;
 
@@ -66,6 +69,8 @@ function humData(gotHumData) {
     if (humRdy) {
         background(235);
         humType = floor(random(10));
+        
+        text(s, 1190, 400, 650, 500);
 
         switch (dataTypeHum) {
             case "Flash Flood": //Flashflood
