@@ -28,13 +28,11 @@ function carmaData(data) {
         switch (carmaType) {
             case 0: //plant count
                 image(img, 1000, 0);
-                text(s, 1190, 400, 650, 500);
                 text(genStatement[c] + genNumber[m] + dataTypePlantCount + plantCountSpin, 20, 20);
                 break;
 
             case 1: //Carbon emissions
                 image(img, 1000, 0);
-                text(s, 1190, 400, 650, 500);
                 text(genStatement[c] + genNumber[m] + dataTypeCarbon + carbonSpin, 30, 30);
                 break;
 
@@ -73,7 +71,7 @@ function humData(gotHumData) {
         background(235);
         humType = floor(random(10));
         
-        text(s, 1190, 400, 650, 500);
+        text(yo, 1190, 400, 650, 500);
 
         switch (dataTypeHum) {
             case "Flash Flood": //Flashflood
