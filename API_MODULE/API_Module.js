@@ -43,7 +43,7 @@ var url6 = api6.Master + api6.Date
 var apiMaster = [api1.Name, api2.Name, api3.Name, api4.Name, api5.Name, api6.Name];
 
 function apiSwitch() {
-    j = floor(random(50));
+    j = floor(random(5));
     //i = floor(random(5));
 
     switch (apiMaster[i]) {
