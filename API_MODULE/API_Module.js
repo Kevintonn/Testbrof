@@ -57,12 +57,6 @@ function apiSwitch() {
             loadJSON("LeaderLexicon.json", humData);
             break;
 
-        case "Torture":
-            loadJSON(url3, gotData3)
-            break;
 
-        case "Crime":
-            loadJSON(url6, gotData6)
-            break;
     }
 }
