@@ -24,16 +24,17 @@ function carmaData(data) {
         carmaType = floor(random(3));
         c = floor(random(2));
         
-        text(s, 1190, 400, 650, 500);
 
         switch (carmaType) {
             case 0: //plant count
                 image(img, 1000, 0);
+                text(s, 1190, 400, 650, 500);
                 text(genStatement[c] + genNumber[m] + dataTypePlantCount + plantCountSpin, 20, 20);
                 break;
 
             case 1: //Carbon emissions
                 image(img, 1000, 0);
+                text(s, 1190, 400, 650, 500);
                 text(genStatement[c] + genNumber[m] + dataTypeCarbon + carbonSpin, 30, 30);
                 break;
 
@@ -77,18 +78,21 @@ function humData(gotHumData) {
         switch (dataTypeHum) {
             case "Flash Flood": //Flashflood
                 image(img, 1000, 0);
+                text(s, 1190, 400, 650, 500);
                 text(flashFloodSpin[floor(random(3))], 1190, 500);
                 text(dataTypeHum + "in" + inCountries, 190, 400, 650, 500)
                 break;
 
             case "Drought": //drought
                 image(img, 1000, 0);
+                text(s, 1190, 400, 650, 500);
                 text(droughtSpin[floor(random(3))], 1190, 500);
                 text(dataTypeHum + " in " + inCountries, 190, 400, 650, 500)
                 break;
 
             case "Epidemic": //epidemic
                 image(img, 1000, 0);
+                text(s, 1190, 400, 650, 500);
                 text(epidemicSpin[floor(random(5))], 1190, 500);
                 text(dataTypeHum + " in " + inCountries, 190, 400, 650, 500)
                 break;
