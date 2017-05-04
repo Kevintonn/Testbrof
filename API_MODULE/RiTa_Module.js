@@ -77,21 +77,18 @@ function humData(gotHumData) {
         switch (dataTypeHum) {
             case "Flash Flood": //Flashflood
                 image(img, 1000, 0);
-                text(flashFloodSpin[floor(random(3))], 900, 500);
                 text(flashFloodSpin[floor(random(3))], 1190, 500);
                 text(dataTypeHum + "in" + inCountries, 190, 400, 650, 500)
                 break;
 
             case "Drought": //drought
                 image(img, 1000, 0);
-                text(droughtSpin[floor(random(3))], 900, 500);
                 text(droughtSpin[floor(random(3))], 1190, 500);
                 text(dataTypeHum + " in " + inCountries, 190, 400, 650, 500)
                 break;
 
             case "Epidemic": //epidemic
                 image(img, 1000, 0);
-                text(epidemicSpin[floor(random(5))], 900, 500);
                 text(epidemicSpin[floor(random(5))], 1190, 500);
                 text(dataTypeHum + " in " + inCountries, 190, 400, 650, 500)
                 break;
